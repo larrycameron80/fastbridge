@@ -103,7 +103,7 @@ if [ "${REPLY,,}" == "y" ]; then
 
 # Customizing Tor RC file to suit your Bridge
 echo "Configuring node to be a Tor Bridge"
-echo "ORPort 443 "     >    /etc/tor/torrc
+echo "ORPort 443"     >    /etc/tor/torrc
 echo "BridgeRelay 1"   >>   /etc/tor/torrc
 echo "SocksPort 0"     >>   /etc/tor/torrc
 echo "ExitPolicy reject *:*" >> /etc/tor/torrc
