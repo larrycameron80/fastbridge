@@ -1,10 +1,5 @@
-# FastBridge
-Making it easier to run your own Tor Bridge.
+# Notice
 
-##Usage
-Log into your server via ssh and download the raw fastbridge.sh script and then execute it.<br>
-- `wget https://raw.githubusercontent.com/torworld/fastbridge/master/fastbridge.sh`<br>
-- `bash fastbridge.sh`
+No longer maintain this sub-project; however we'll leave these files here if someone would like to read them for educational purposes.
 
-##Notes
-If you have any problems feel free to email us: `security[at]torworld.org`
+Visit us at: https://fastrelay.org | https://torworld.org | https://cryptoworld.is
